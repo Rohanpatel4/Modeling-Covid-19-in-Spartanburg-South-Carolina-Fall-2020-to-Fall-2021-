@@ -199,7 +199,7 @@ $-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,81,2
 10,7,time quarantined,890,326,47,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
 10,8,Probability that you get sick during quarantine,859,111,61,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
 10,9,waning immunity rate,844,739,57,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,10,isolate probability after getting sick,1092,443,61,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,10,isolate probability after getting sick,1083,373,61,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
 10,11,rate of quarantining,471,421,53,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
 10,12,Total population,587,683,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
 10,13,new strain reset to susceptible,420,617,59,17,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|||128-128-128,0,0,0,0,0,0
@@ -359,11 +359,37 @@ $-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,81,2
 :VAR Recovered
 :DATASET 
 :LINE-WIDTH 1
+
+:TABLE The_table
+:TITLE Covid-19 peaks in Spartanburg (Fall 2020-Fall 2021)
+:PRINT-EVERY 285
+:X-MIN 49
+:X-MAX 334
+:TIME-DOWN
+:VAR Susceptible
+:DATASET 
+:VAR Quarantined
+:DATASET 
+:VAR Exposed
+:DATASET 
+:VAR Infected
+:DATASET 
+:VAR Isolated
+:DATASET 
+:VAR Recovered
+:DATASET 
+:VAR Dead
+:DATASET 
 :L<%^E!@
+1:Untitled.vdfx
+1:Higher vaccination, quaranting, and Isolation.vdfx
+1:Higher vaccination rate.vdfx
+1:Higher isolation.vdfx
+1:Higher quarantining.vdfx
 1:current.vdfx
 4:Time
-5:new strain reset to susceptible
-9:current
+5:isolate probability after getting sick
+9:Untitled
 19:81,0
 24:0
 25:365
